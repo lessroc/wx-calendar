@@ -4,7 +4,7 @@
     "urlCheck": true,
     "es6": true,
     "enhance": true,
-    "postcss": true,
+    "postcss": false,
     "preloadBackgroundData": false,
     "minified": true,
     "newFeature": false,
@@ -50,5 +50,5 @@
     "ignore": [],
     "include": []
   },
-  "appid": "wx7460323e576faebb"
+  "appid": "wxc8071040107b0c6e"
 }
