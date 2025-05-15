@@ -1,0 +1,19 @@
+{
+  "name": "wx-calendar",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@lspriv/wx-calendar": "^1.8.4",
+    "@lspriv/wc-plugin-lunar": "^1.0.3-alpha.0",
+    "@lspriv/wc-plugin-multiple": "^1.0.3",
+    "@lspriv/wc-plugin-disabled": "^1.0.1",
+    "@lspriv/wc-plugin-ics": "^1.2.2"
+  }
+}
