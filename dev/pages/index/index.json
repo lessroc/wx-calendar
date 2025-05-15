@@ -1,7 +1,10 @@
 {
-	"usingComponents": {
-		"calendar": "../../components/wx-calendar/index"
-	},
 	"disableScroll": true,
-	"navigationStyle": "custom"
+	"navigationBarTitleText": "可预约时间设置",
+	"navigationBarTextStyle": "black",
+	"navigationBarBackgroundColor": "#ffffff",
+	"backgroundColor": "#ffffff",
+	"usingComponents": {
+		"calendar": "@lspriv/wx-calendar/index"
+	}
 }

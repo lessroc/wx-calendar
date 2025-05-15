@@ -1,10 +1,14 @@
 <view class="container" style="padding-top: {{ padding }}px;">
-  <calendar 
-    id="calendar" 
-    marks="{{ markers }}" 
+  <calendar
+    id="calendar"
+    marks="{{markers}}"
+    customNavBar="{{false}}"
+    alignDate="baseline"
     bindload="handleLoad"
     bindclick="handleClick"
-    bindchange="handleChange" 
-    bindviewchange="handleViewChange">
+    bindchange="handleChange"
+    bindviewchange="handleViewChange"
+    style="--wc-dot-offset-y: -4px;"
+  >
   </calendar>
 </view>
